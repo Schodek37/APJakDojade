@@ -1,6 +1,6 @@
 # Android_Project_Jak_Dojade
 
-Projekt zespołowy - stworzenie aplikacji na platformę Android
+Projekt zespołowy na Programowanie aplikacji dla technologii mobilnych - stworzenie aplikacji na platformę Android
 -------------------------------------------------------------
 
 Odwzorowanie działania podstawowych funkcji aplikacji JakDojadę. 
