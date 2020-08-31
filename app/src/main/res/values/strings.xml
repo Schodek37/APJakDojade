@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">APJakDojade</string>
+    <string name="main_activity">Main Activity</string>
+    <string name="open_web">Open Web</string>
+    <string name="prosz_czeka">Proszę czekać...</string>
+    <string name="todo">TODO</string>
+</resources>

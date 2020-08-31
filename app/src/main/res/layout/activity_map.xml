@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Map">
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/menu_dark_bg"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        >
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:text="Jak_Dojadę_Beta"
+            android:textColor="@color/colorAccent"
+            android:paddingTop="10px"
+            android:textAlignment="center"
+            android:layout_marginTop="22px"/>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/menu_icons"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu"
+        app:layout_constraintVertical_bias="0.018">
+
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:layout_marginEnd="10dp"
+            android:background="@null"
+            android:src="@drawable/ic_view_headline_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:paddingTop="30px"
+            android:text="Mapa Przystanków"
+            android:textAlignment="center"
+            android:layout_marginLeft="50dp"
+            android:textColor="@color/black"
+            android:textSize="60px"
+            android:textStyle="bold" />
+    </GridLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="381dp"
+        android:layout_height="585dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menu_icons"
+        tools:context=".MapsActivity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

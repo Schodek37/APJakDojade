@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">#000000</color>
+    <color name="less_black">#FF1E1D1D</color>
+    <color name="dark_menu_blue">#234F91</color>
+    <color name="dark_icon_blue">#152946</color>
+    <color name="text_blue_light">#0CB4FF</color>
+    <color name="menu_dark_bg">#1F385E</color>
+</resources>

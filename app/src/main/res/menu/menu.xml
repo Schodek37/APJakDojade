@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_favorite"
+        android:title="Ulubione przystanki"/>
+
+    <item android:id="@+id/menu_localization"
+        android:title="Mapa"/>
+
+    <item android:id="@+id/menu_stops"
+        android:title="Przystanki"/>
+
+    <item android:id="@+id/qr_code"
+        android:title="QR Kod"/>
+</menu>
